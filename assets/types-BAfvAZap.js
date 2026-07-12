@@ -1,0 +1,1 @@
+function t(e){const i=[e.city,e.state].filter(Boolean).join(", ")+(e.zip?" "+e.zip:"");return{name:e.name,tin:e.ein,address:e.address,cityStateZip:i.trim()||void 0,phone:e.phone}}function n(e){const i=e.middleName&&e.middleName!=="None"?e.middleName:"";return[e.firstName,i,e.lastName].filter(Boolean).join(" ").trim()}export{t as b,n as f};
